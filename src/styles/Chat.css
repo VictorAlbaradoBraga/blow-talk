@@ -1,0 +1,38 @@
+.chat-container, .group-chat-container {
+    background-color: #2f3136;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+  }
+  
+  .messages {
+    background-color: #36393f;
+    padding: 15px;
+    border-radius: 8px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #7289da;
+    background-color: #40444b;
+    color: white;
+  }
+  
+  button {
+    background-color: #7289da;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5b6eae;
+  }
+  

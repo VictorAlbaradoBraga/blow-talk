@@ -1,0 +1,181 @@
+body {
+    background-color: #36393f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .auth-container, .chat-container, .group-chat-container, .admin-container {
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #7289da;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #5b6eae;
+  }
+
+  .toggle-link {
+    color: #7289da;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  .toggle-link:hover {
+    color: #5b6eae;
+  }
+  
+  /* Container principal da página Home */
+.home-container {
+    padding: 20px;
+    background-color: #36393f;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Título principal */
+  .home-container h2 {
+    text-align: center;
+    color: #7289da;
+  }
+  
+  /* Seções de adicionar amigo e criar grupo */
+  .add-friend, .create-group {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .add-friend input, .create-group input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #2f3136;
+    color: white;
+  }
+  
+  .add-friend button, .create-group button {
+    padding: 8px 15px;
+    background-color: #7289da;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-friend button:hover, .create-group button:hover {
+    background-color: #5b6eae;
+  }
+  
+  /* Seção de pedidos de amizade */
+  .friend-requests-section {
+    margin-top: 20px;
+  }
+  
+  .friend-requests-section h3 {
+    color: #ffcc4d;
+  }
+  
+  .friend-requests-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .friend-requests-section li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2f3136;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .friend-requests-section button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .friend-requests-section button:first-of-type {
+    background-color: #4caf50; /* Verde para aceitar */
+    color: white;
+  }
+  
+  .friend-requests-section button:last-of-type {
+    background-color: #f44336; /* Vermelho para recusar */
+    color: white;
+  }
+  
+  .friend-requests-section button:hover:first-of-type {
+    background-color: #388e3c;
+  }
+  
+  .friend-requests-section button:hover:last-of-type {
+    background-color: #d32f2f;
+  }
+  
+  /* Seções de amigos e grupos */
+  .friends-section, .groups-section {
+    margin-top: 20px;
+  }
+  
+  .friends-section h3, .groups-section h3 {
+    color: #ffcc4d;
+  }
+  
+  .friends-section ul, .groups-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .friends-section li, .groups-section li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #2f3136;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .friends-section li:hover, .groups-section li:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos de lista para amigos e grupos */
+  .friends-section li, .groups-section li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2f3136;
+    border-radius: 4px;
+  }
+  
+  .friends-section li:hover, .groups-section li:hover {
+    background-color: #444;
+  }
+  
+  
